@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+/* CSS for jquery Scripttop */
+/*#jquery-script-menu {
+position: fixed;
+height: 90px;
+width: 100%;
+top: 0;
+left: 0;
+border-top: 5px solid #316594;
+background: #fff;
+-moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+-webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+z-index: 999999;
+padding: 10px 0;
+-webkit-box-sizing:content-box;
+-moz-box-sizing:content-box;
+box-sizing:content-box;
+}
+
+.jquery-script-center {
+width: 960px;
+margin: 0 auto;
+}
+.jquery-script-center ul {
+width: 212px;
+float:left;
+line-height:45px;
+margin:0;
+padding:0;
+list-style:none;
+}
+.jquery-script-center a {
+	text-decoration:none;
+}
+.jquery-script-ads {
+width: 728px;
+height:90px;
+float:right;
+}
+.jquery-script-clear {
+clear:both;
+height:0;
+}*/
+
+/* CSS for accordian */
+.u-vmenu ul li {
+	/*width: 311px;*/
+	list-style: none;
+}
+.u-vmenu ul ul{
+	display: none;
+}
+.u-vmenu > ul > li {
+	background: url(../images/top_nav_bg.html) left top repeat-x;
+	/*background-size: 100% auto;*/
+	border-radius:10px;
+}
+.u-vmenu > ul > li:hover > a {
+color:#8fde62;
+}
+.u-vmenu ul li a {
+	height: 30px;
+	line-height: 30px;
+	display: block;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+	outline: none;
+}
+.u-vmenu > ul > li > a {
+	height: 42px;
+	line-height: 42px;
+	padding-left: 35px;
+}
+.u-vmenu > ul > li > ul > li {
+	background-color:#efefef;
+	border: 1px solid #C1C1C1;
+	}
+.u-vmenu > ul > li > ul > li > a {
+	padding-left: 50px;
+	color:#333;
+}
+.u-vmenu > ul > li > ul > li > a:hover {
+	background-color:#c6cdde;
+	
+}
+.u-vmenu > ul > li > ul > li > ul > li {
+	background-color:#45639B;
+	border: 1px solid #C1C1C1;
+}
+.u-vmenu > ul > li > ul > li > ul > li > a {
+	padding-left: 75px;
+}
+.u-vmenu > ul > li > ul > li > ul > li > a:hover {
+	background-color:#84A1C9;
+}
+.u-vmenu > ul > li > ul > li > ul > li > ul > li > a {
+	padding-left: 135px;
+}
+.u-vmenu ul li a[data-option='on']{
+	background: url(../images/icons/on.png) right center no-repeat;
+	background-position:98%;
+}
+.u-vmenu ul li a[data-option='off'] {
+	background: url(../images/icons/off.png) right center no-repeat;
+	background-position:98%;
+}
+
+
+/*- custom- */
+.u-vmenu > ul > li {
+	background:none;
+  background-color: #fff;
+  border: 1px solid #80a3b2;
+  border-radius:0px;
+  color: #333;
+  margin: 5px 0;
+}
+.u-vmenu > ul > li > a {
+	
+	color:#333;
+	}
+.u-vmenu > ul li a img {
+	
+	width:auto;
+	}
+
+.u-vmenu > ul > li > ul > li:last-child {
+	border-bottom:1px solid #80a3b2;	
+	/*border-radius: 0 0 30px 30px;*/
+	overflow:hidden;
+	}
+
+.u-vmenu > ul > li > ul > li:last-child > ul > li:last-child {
+	/*border-radius: 0 0 30px 30px;*/
+	
+	}
+.u-vmenu > ul > li > ul > li:last-child > ul > li:last-child a:hover {
+	/*border-radius: 0 0 30px 30px;*/
+	}
+	
+	
+.u-vmenu > ul > li:hover > a {
+	color: #00AEEF;
+}
+.u-vmenu > ul > li > ul > li > ul > li {
+	background-color: #00AEEF;
+	border: 1px solid #C1C1C1;
+}
+.u-vmenu > ul > li > ul > li > ul > li > a:hover {
+	background-color: #262261;
+}
+/* Theme style*/
